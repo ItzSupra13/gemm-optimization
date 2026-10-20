@@ -1,0 +1,7 @@
+kernel,build,n,median_gflops,best_gflops,median_ms,max_rel_err,ok,cpu,mhz_end
+01_naive,"-O3 -march=native -ffast-math",64,10.56,10.71,0.050,3.55e-07,1,2,5000
+01_naive,"-O3 -march=native -ffast-math",128,6.06,6.15,0.692,4.80e-07,1,2,4786
+01_naive,"-O3 -march=native -ffast-math",256,4.26,4.40,7.868,5.87e-07,1,2,4700
+01_naive,"-O3 -march=native -ffast-math",512,2.92,2.94,91.911,4.55e-07,1,2,4871
+01_naive,"-O3 -march=native -ffast-math",1024,0.95,0.95,2265.673,2.39e-07,1,2,4972
+01_naive,"-O3 -march=native -ffast-math",2048,0.27,0.27,63599.984,5.26e-07,1,2,4300

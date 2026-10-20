@@ -49,7 +49,7 @@ static float *alloc_matrix(int n) {
 
 int main(int argc, char **argv) {
     int reps = 7, max_n = 1 << 30, header = 1;
-    const char *sizes = "128,256,512,1024,2048,4096,8192";
+    const char *sizes = "64,128,256,512,1024,2048,4096,8192";
     int opt;
     while ((opt = getopt(argc, argv, "n:r:m:H")) != -1) {
         switch (opt) {

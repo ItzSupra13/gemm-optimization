@@ -1,0 +1,9 @@
+kernel,build,n,median_gflops,best_gflops,median_ms,max_rel_err,ok,cpu,mhz_end
+02_ikj,"-O3 -march=native -ffast-math",64,47.55,47.55,0.011,2.54e-07,1,2,4700
+02_ikj,"-O3 -march=native -ffast-math",128,49.37,49.37,0.085,3.00e-07,1,2,4500
+02_ikj,"-O3 -march=native -ffast-math",256,53.67,53.67,0.625,5.87e-07,1,2,4600
+02_ikj,"-O3 -march=native -ffast-math",512,46.28,46.28,5.800,7.59e-07,1,2,4741
+02_ikj,"-O3 -march=native -ffast-math",1024,31.07,31.07,69.108,5.35e-07,1,2,4700
+02_ikj,"-O3 -march=native -ffast-math",2048,14.35,14.35,1197.501,2.01e-06,1,2,4783
+02_ikj,"-O3 -march=native -ffast-math",4096,10.72,10.72,12815.396,3.71e-06,1,2,4300
+02_ikj,"-O3 -march=native -ffast-math",8192,9.96,9.96,110410.154,4.58e-06,1,2,4300

@@ -1,10 +1,9 @@
 kernel,build,n,median_gflops,best_gflops,median_ms,max_rel_err,ok,cpu,mhz_end
-openblas,"-O3 -march=native -ffast-math",64,122.70,123.31,0.004,0.00e+00,1,2,4884
-openblas,"-O3 -march=native -ffast-math",128,130.64,132.39,0.032,0.00e+00,1,2,4736
-openblas,"-O3 -march=native -ffast-math",256,137.91,138.72,0.243,0.00e+00,1,2,4800
-openblas,"-O3 -march=native -ffast-math",512,139.72,141.02,1.921,0.00e+00,1,2,4877
-openblas,"-O3 -march=native -ffast-math",1024,139.83,141.89,15.357,0.00e+00,1,2,4688
-openblas,"-O3 -march=native -ffast-math",1000,139.48,139.73,14.339,0.00e+00,1,2,4700
-openblas,"-O3 -march=native -ffast-math",1023,135.27,136.10,15.829,0.00e+00,1,2,4700
-openblas,"-O3 -march=native -ffast-math",1536,139.13,139.73,52.093,0.00e+00,1,2,4600
-openblas,"-O3 -march=native -ffast-math",2048,140.08,140.71,122.644,0.00e+00,1,2,4600
+openblas,"",64,118.61,122.14,0.004,0.00e+00,1,2,4859
+openblas,"",128,129.33,130.75,0.032,0.00e+00,1,2,4760
+openblas,"",256,137.43,139.42,0.244,0.00e+00,1,2,4788
+openblas,"",512,139.41,140.03,1.926,0.00e+00,1,2,4862
+openblas,"",1024,141.58,142.08,15.168,0.00e+00,1,2,4776
+openblas,"",2048,140.77,143.09,122.044,0.00e+00,1,2,4683
+openblas,"",4096,141.62,142.44,970.465,0.00e+00,1,2,4538
+openblas,"",8192,121.60,121.70,9042.135,0.00e+00,1,2,3973
